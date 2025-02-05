@@ -1,17 +1,17 @@
 {
   "name": "dashboard",
   "private": true,
-  "homepage": "https://github.com/rohitsr0202/LandingPage.git",
+  "homepage": "https://rohitsr0202.github.io/LandingPage",
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
