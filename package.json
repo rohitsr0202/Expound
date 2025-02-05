@@ -1,7 +1,6 @@
 {
   "name": "dashboard",
   "private": true,
-  "homepage": "https://rohitsr0202.github.io/LandingPage",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
