@@ -16,11 +16,11 @@ const BottomData = [
 
 const Bottom = () => {
   return (
-    <div className="max-w-2xl mx-auto p-4">
-      <h2 className="text-lg font-semibold mb-4">Overdue Activities</h2>
+    <div className="max-w-2xl mx-auto p-2">
+      <h2 className="fs-6 text-lg font-semibold mb-2">Overdue Activities</h2>
       <div className="flex gap-4">
         {BottomData.map((activity, index) => (
-          <div key={index} className="border rounded-lg p-4 shadow-md w-1/2">
+          <div key={index} className="border rounded-lg p-2 shadow-md w-1/2">
             <div className="flex items-center gap-2 mb-2">
               <PhoneCall className="text-green-500" size={18} />
               <span className="font-semibold">{activity.title}</span>

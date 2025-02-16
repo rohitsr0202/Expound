@@ -31,9 +31,9 @@ const RoadMap = () => {
   return (
 
    <div>
-    <h1 className=" border-b w-[20.7vw] border-gray-400 font-bold p-[7px]">Activity Logs</h1>
-     <div className="max-w-md pl-20 border-b w-[20.7vw] border-gray-400 h-[21vw]  pt-5">
-      <h2 className="text-lg font-semibold mb-4">January 2025</h2>
+    <h1 className=" border-b  border-gray-400 fs-6 p-2  ">Activity Logs</h1>
+     <div className="max-w-md pl-20 border-b  border-gray-400  pt-1">
+      <h2 className="text-lg font-semibold mb-4 fs-5">January 2025</h2>
       <div className="relative border-l-2 border-dashed border-gray-400 ">
         {RoadMapData.map((item, index) => (
           <div key={index} className="relative pb-6 last:pb-0 flex items-start">
